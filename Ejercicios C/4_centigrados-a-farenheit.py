@@ -2,8 +2,8 @@
 funcion que convierte la temperatura en centigrados a farenheit
 '''
 
-def temperatura(c):
-    f = (float(input("Cual es la temperatura en centigrados?: ")) * 9/5) + 32
-    return f 
+def convertir_temp():
+    c = (float(input("Cual es la temperatura en centigrados?: ")) * 9/5) + 32
+    return c 
 
-print("La temperatura en Farenheit es: ", temperatura(0))
+print("La temperatura en Farenheit es: ", convertir_temp())
